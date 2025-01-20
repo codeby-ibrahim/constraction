@@ -1,0 +1,343 @@
+
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+}
+.bar {
+    display: none;
+    cursor: pointer;
+  }
+
+/* Navbar */
+.navbar {
+    background-color: #343a40;
+    padding: 1rem 0;
+    z-index: 1000;
+}
+
+/* --home section-- */
+.hero {
+    background-color: #f8f9fa;
+    padding: 100px 0;
+    text-align: center;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.hero h1 {
+    font-size: 34px;
+    animation: slideIn 2s ease-in-out;
+}
+
+.hero-title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    animation: slideIn 1.5s ease-in-out;
+}
+
+.hero-tagline {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+    animation: slideIn 1.8s ease-in-out;
+}
+
+.hero-btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    animation: bounceIn 2.5s ease-in-out;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.hero-btn:hover {
+    background-color: #007bff;
+    transform: scale(1.1);
+}
+
+/* home Responsive adjustments using Bootstrap breakpoints */
+@media (max-width: 768px) {
+    .hero {
+        padding: 50px 0;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .hero-title {
+        font-size: 2rem;
+    }
+
+    .hero-tagline {
+        font-size: 1rem;
+    }
+
+    .hero-btn {
+        padding: 8px 16px;
+        font-size: 0.9rem;
+    }
+}
+
+
+/*home Keyframes for animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(-50px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+@keyframes bounceIn {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-30px);
+    }
+    60% {
+        transform: translateY(-15px);
+    }
+}
+ /* Home section 2nd  */
+ .features {
+    padding: -2px 0px 12px 30px; 
+    background-color: #f8f9fa;
+}
+
+.features p {
+    font-size: 2rem;
+   
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.features p strong {
+    font-weight: bold;
+    color: #000;
+}
+
+.features p a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.features p a:hover {
+    text-decoration: underline;
+}
+
+
+ /* --Home section and--*/
+
+ /* button  */
+.animated-button {
+    background-color: #3498db;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Hover animation */
+.animated-button:hover {
+    background-color: #2980b9;
+    transform: scale(1.1);
+}
+
+/* Focus animation */
+.animated-button:focus {
+    outline: none;
+    animation: pulse 1s infinite;
+}
+
+/* Keyframes for focus animation */
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 rgba(52, 152, 219, 0.7);
+    }
+    70% {
+        box-shadow: 0 0 0 10px rgba(52, 152, 219, 0);
+    }
+    100% {
+        box-shadow: 0 0 0 0 rgba(52, 152, 219, 0);
+    }
+}
+
+/* buttonn and */
+.navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #ff7f50;
+}
+
+.navbar-toggler-icon {
+    background-color: #fffbfb;
+}
+
+/* Hero Section */
+.hero-section {
+    background: url('images/pexels-scottwebb-24924.jpg') no-repeat center center/cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+/* Navbar Styles */
+.navbar {
+    background-color: hsl(0deg 0% 92.94%); /* Dark background for the navbar */
+    padding: 1rem 0; /* Padding for the navbar */
+    position: fixed; /* Fixed at the top of the page */
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; /* Ensures the navbar stays on top of other content */
+    transition: background-color 0.3s ease-in-out; /* Smooth transition for background color */
+}
+.nav-link ul li{
+    text-decoration: none;
+}
+
+/* Navbar brand */
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ffffff; /* White text color */
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: color 0.3s ease;
+}
+
+.navbar-brand:hover {
+    color: #ff7f50; /* Hover color for brand */
+}
+
+/* Navbar Toggler (Hamburger menu) */
+.navbar-toggler {
+    border: none;
+    background-color: transparent;
+}
+.navbar-nav{
+    display: flex;
+    justify-content: center;
+    margin-top: -35px;
+  
+   
+   
+}
+.navbar-toggler-icon {
+    background-color: #fff; /* White color for hamburger icon */
+    width: 30px;
+    height: 3px;
+    transition: transform 0.3s ease;
+}
+
+/* Active navbar items */
+.navbar-nav .nav-link {
+    color:  hsl(215.34deg 100% 14.31%) !important; /* White text color */
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    padding: 15px 20px;
+    transition: color 0.3s ease;
+  
+}
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+    color: #ff7f50 !important; /* Hover color for links */
+    text-decoration: none; /* Remove underline */
+}
+
+/* Active Navbar Item on scroll */
+.navbar.scrolled {
+    background-color: #222; /* Darker background when scrolling */
+}
+
+/* Navbar collapse styles for mobile view */
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+/* Add animation to navbar items */
+.navbar-nav .nav-link {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.5s forwards;
+}
+
+.navbar-nav .nav-link:nth-child(1) {
+    animation-delay: 0.1s;
+}
+
+.navbar-nav .nav-link:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.navbar-nav .nav-link:nth-child(3) {
+    animation-delay: 0.3s;
+}
+
+.navbar-nav .nav-link:nth-child(4) {
+    animation-delay: 0.4s;
+}
+
+/* Animation Keyframes */
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Hover effect for navbar links */
+.navbar-nav .nav-item {
+    position: relative;
+}
+
+
+.navbar-nav .nav-link::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background-color: #ff7f50;
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease-out;
+}
+
+.navbar-nav .nav-link:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
