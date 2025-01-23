@@ -7,10 +7,16 @@ body {
     margin: 0;
     padding: 0;
 }
-.bar {
+.navbar-toggler{
+    font-size: 40px !important; 
+    color: rgb(0, 0, 0) !important;
+    /* background-color: rgb(160, 160, 160) !important; */
+}
+/* .bar {
+  
     display: none;
     cursor: pointer;
-  }
+  } */
 
 /* Navbar */
 .navbar {
@@ -143,7 +149,7 @@ body {
 
  /* button  */
 .animated-button {
-    background-color: #3498db;
+    background-color: #0c0c0c;
     border: none;
     color: white;
     padding: 10px 20px;

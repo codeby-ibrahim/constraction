@@ -9,8 +9,9 @@
     <link rel="stylesheet" href="style.css">
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-
     
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="media.css">
 </head>
@@ -18,13 +19,13 @@
 <body>
     <!-- Sticky Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark  fixed-top">
-        <div class="container  d-flex ">
+        <div class="container  ">
             <a class="navbar-brand"><img src="images/Capture.JPG" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <i class="fa-solid fa-bars"></i>
             </button>
-            <div class="nav collapse navbar-collapse" id="navbarNav">
+            <div class="nav collapse navbar-collapse mt-4" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
                         <a class="nav-link" href="#about">About</a>
@@ -39,7 +40,7 @@
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
-                <i class="bar fa-solid fa-bars"></i>
+                <!-- <i class="bar fa-solid fa-bars"></i> -->
             </div>
         </div>
     </nav>
@@ -58,7 +59,7 @@
         <div class="container">
             <h1>Welcome to My Portfolio</h1>
             <p>Your tagline goes here. Make it catchy!</p>
-            <a href="#"><button class=" animated-button ">Learn More</button></a>
+            <a href="#"><button class="portfolio-btn">Learn More</button></a>
         </div>
     </section>
 
@@ -66,18 +67,18 @@
     <section class="features" id="features">
         <div class="container">
             <div class="row">
-                <div class="col-4">
-                    <p><strong>As problem solvers and ‘people-people’</strong>, we’ve been delivering a consistently high standard of work in the Wellington region for more than 25 years.</p>
+                <div class="col-6 col-md-4"
+                    <p> <strong>As problem solvers and ‘people-people’</strong>, we’ve been delivering a consistently high standard of work in the Wellington region for more than 25 years.</p>
                 </div>
-                <div class="col-4">
+                <div class="col-6 col-md-4">
                     <p>Whether it’s effectively managing timelines, liaising with our building partners, or upholding our reputation for outstanding results – we pride ourselves on delivering an excellent and effortless experience on time and within budget for our residential and commercial clients.</p>
                 </div>
-                <div class="col-4">
+                <div class="col-6 col-md-4">
                     <p>We specialise in building eco-friendly passive homes, remedial work on leaky buildings, extensions, additions, renovations and project management. Our hand-picked team are highly experienced and passionate about quality results. Check out these <a href="#">residential</a> and <a href="#">commercial</a> projects and talk to us today about the project you are considering.</p>
                 </div>
             </div>
+            <a href="#" class="d-flex justify-content-center align-items-center text-decoration-none "><button class=" animated-button ">see More</button></a>
         </div>
-           <a href="#"><button class=" animated-button ">see More</button></a>
     </section>
     
     
