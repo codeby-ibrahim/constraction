@@ -43,7 +43,6 @@ body {
     margin-bottom: 30px;
     animation: slideIn 1.8s ease-in-out;
 }
-
 .hero-btn {
     padding: 10px 20px;
     font-size: 1rem;
@@ -120,8 +119,7 @@ body {
 }
 
 .features p {
-    font-size: 2rem;
-   
+    font-size: 1rem;
     line-height: 1.6;
     margin-bottom: 10px;
 }

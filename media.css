@@ -3,10 +3,10 @@
     .navbar {
         padding: 0.5rem 0;
     }
-
+/* 
     .navbar-nav{
 
-            /* justify-content: end;
+            justify-content: end;
             align-items: center;
             color: rgb(0, 0, 0);
             display: flex;
@@ -18,8 +18,8 @@
             right: 0;
             width: 50%;
             padding: 10px 0;
-            height: 85vh; */
-    }
+            height: 85vh; 
+    }  */
     .bar {
         display: block;
         font-size: 24px;    
