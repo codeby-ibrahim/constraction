@@ -501,7 +501,7 @@ body {
       
       .social-icons {
         position: sticky;
-        justify-content: center;
+        bottom: 40px;
       }
   
       
