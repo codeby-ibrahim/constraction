@@ -496,33 +496,17 @@ body {
       }
 
       /* whitsapp button */
+
+  
       
-      @keyframes moveIcon {
-        0% {
-          transform: translate(0, 0);
-        }
-        25% {
-          transform: translate(100px, 0);
-        }
-        50% {
-          transform: translate(100px, 100px);
-        }
-        75% {
-          transform: translate(0, 100px);
-        }
-        100% {
-          transform: translate(0, 0);
-        }
-      }
-  
-      /* Style the social icon container */
       .social-icons {
-        position: absolute;
-        animation: moveIcon 5s infinite;
+        position: sticky;
+        justify-content: center;
       }
   
-      /* Style the individual icon */
+      
       .social-icons a img {
-        width: 20 px; /* Adjust size as needed */
+        width: 10vw; 
+        max-width: 50px; 
       }
     
