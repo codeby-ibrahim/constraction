@@ -23,7 +23,9 @@
         font-size: 24px;    
     
     }
-
+    .bar-bar{
+        font-size: 25px;
+    }
 
     .navbar-brand {
         font-size: 1.5rem;
@@ -32,7 +34,7 @@
     .navbar-nav .nav-link {
         font-size: 1rem;
         padding: 10px 15px;
-        background-color: blue;
+    
     }
 
     .navbar-toggler-icon {
