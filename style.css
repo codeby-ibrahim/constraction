@@ -358,3 +358,33 @@ body {
     transform: scaleX(1);
     transform-origin: bottom left;
 }
+
+ /* side image animation  */
+/* Define the keyframes for animations */
+@keyframes fadeInSlide {
+    0% {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Apply the animation to the section */
+  .side-image {
+    animation: fadeInSlide 1.5s ease-out forwards;
+  }
+  
+  /* Additional styling for smooth appearance */
+  img.img-fluid {
+    animation: fadeInSlide 1.5s ease-out 0.5s forwards;
+    opacity: 0;
+  }
+  
+  h2, p {
+    animation: fadeInSlide 1.5s ease-out 0.8s forwards;
+    opacity: 0;
+  }
+  
