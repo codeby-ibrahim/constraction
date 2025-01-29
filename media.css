@@ -10,7 +10,7 @@
             display: flex;
             flex-direction: column;
             gap: 15px;
-            background-color: hsl(0deg 0% 92.94%);
+            /* background-color: hsl(0deg 0% 92.94%); */
             position: absolute;
             top: 120px;
             right: 0;
@@ -42,6 +42,10 @@
         width: 25px;
         height: 3px;
     }
+
+.card-margin-top{
+    margin-top: 0 !important;
+}
 }
 
 /* Scroll to top button */

@@ -1,11 +1,11 @@
 
 /* General Styles */
 body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #212529;
-    color: rgb(0, 0, 0);
-    margin: 0;
-    padding: 0;
+    font-family: 'Roboto', sans-serif !important;
+    background-color: #ffffff  !important;
+    color: rgb(0, 0, 0)  !important;
+    margin: 0  !important;
+    padding: 0  !important;
 }
 .navbar-toggler{
     font-size: 40px !important; 
@@ -510,3 +510,13 @@ body {
         max-width: 50px; 
       }
     
+      /* About Section */
+      .custom-card {
+        background-color: #e6392f;
+        color: white;
+        padding: 80px 50px;
+        border-radius: 5px;
+    }
+    .card-margin-top{
+        margin-top: 120px !important;
+    }
