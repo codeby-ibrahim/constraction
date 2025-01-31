@@ -1,17 +1,18 @@
-
 /* General Styles */
 body {
     font-family: 'Roboto', sans-serif !important;
-    background-color: #ffffff  !important;
-    color: rgb(0, 0, 0)  !important;
-    margin: 0  !important;
-    padding: 0  !important;
+    background-color: #ffffff !important;
+    color: rgb(0, 0, 0) !important;
+    margin: 0 !important;
+    padding: 0 !important;
 }
-.navbar-toggler{
-    font-size: 40px !important; 
+
+.navbar-toggler {
+    font-size: 40px !important;
     color: rgb(0, 0, 0) !important;
     /* background-color: rgb(160, 160, 160) !important; */
 }
+
 /* .bar {
   
     display: none;
@@ -49,6 +50,7 @@ body {
     margin-bottom: 30px;
     animation: slideIn 1.8s ease-in-out;
 }
+
 .hero-btn {
     padding: 10px 20px;
     font-size: 1rem;
@@ -91,6 +93,7 @@ body {
     from {
         opacity: 0;
     }
+
     to {
         opacity: 1;
     }
@@ -101,6 +104,7 @@ body {
         transform: translateY(-50px);
         opacity: 0;
     }
+
     to {
         transform: translateY(0);
         opacity: 1;
@@ -108,19 +112,27 @@ body {
 }
 
 @keyframes bounceIn {
-    0%, 20%, 50%, 80%, 100% {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
         transform: translateY(0);
     }
+
     40% {
         transform: translateY(-30px);
     }
+
     60% {
         transform: translateY(-15px);
     }
 }
- /* Home section 2nd  */
- .features {
-    padding: -2px 0px 12px 30px; 
+
+/* Home section 2nd  */
+.features {
+    padding: -2px 0px 12px 30px;
     background-color: #f8f9fa;
 }
 
@@ -145,9 +157,9 @@ body {
 }
 
 
- /* --Home section and--*/
+/* --Home section and--*/
 
- /* button  */
+/* button  */
 .animated-button {
     background-color: #07cbe9;
     border: none;
@@ -161,7 +173,8 @@ body {
     border-radius: 8px;
     transition: background-color 0.3s, transform 0.3s;
 }
-.portfolio-btn{
+
+.portfolio-btn {
     background-color: #07cbe9;
     border: none;
     color: white;
@@ -192,9 +205,11 @@ body {
     0% {
         box-shadow: 0 0 0 0 rgba(52, 152, 219, 0.7);
     }
+
     70% {
         box-shadow: 0 0 0 10px rgba(52, 152, 219, 0);
     }
+
     100% {
         box-shadow: 0 0 0 0 rgba(52, 152, 219, 0);
     }
@@ -230,18 +245,25 @@ body {
     position: relative;
     text-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
+
 /* Navbar Styles */
 .navbar {
-    background-color: hsl(0deg 0% 92.94%); /* Dark background for the navbar */
-    padding: 1rem 0; /* Padding for the navbar */
-    position: fixed; /* Fixed at the top of the page */
+    background-color: hsl(0deg 0% 92.94%);
+    /* Dark background for the navbar */
+    padding: 1rem 0;
+    /* Padding for the navbar */
+    position: fixed;
+    /* Fixed at the top of the page */
     top: 0;
     left: 0;
     right: 0;
-    z-index: 1000; /* Ensures the navbar stays on top of other content */
-    transition: background-color 0.3s ease-in-out; /* Smooth transition for background color */
+    z-index: 1000;
+    /* Ensures the navbar stays on top of other content */
+    transition: background-color 0.3s ease-in-out;
+    /* Smooth transition for background color */
 }
-.nav-link ul li{
+
+.nav-link ul li {
     text-decoration: none;
 }
 
@@ -249,14 +271,16 @@ body {
 .navbar-brand {
     font-size: 2rem;
     font-weight: bold;
-    color: #ffffff; /* White text color */
+    color: #ffffff;
+    /* White text color */
     text-transform: uppercase;
     letter-spacing: 2px;
     transition: color 0.3s ease;
 }
 
 .navbar-brand:hover {
-    color: #ff7f50; /* Hover color for brand */
+    color: #ff7f50;
+    /* Hover color for brand */
 }
 
 /* Navbar Toggler (Hamburger menu) */
@@ -264,16 +288,19 @@ body {
     border: none;
     background-color: transparent;
 }
-.navbar-nav{
+
+.navbar-nav {
     display: flex;
     justify-content: center;
     margin-top: -35px;
-  
-   
-   
+
+
+
 }
+
 .navbar-toggler-icon {
-    background-color: #fff; /* White color for hamburger icon */
+    background-color: #fff;
+    /* White color for hamburger icon */
     width: 30px;
     height: 3px;
     transition: transform 0.3s ease;
@@ -281,22 +308,27 @@ body {
 
 /* Active navbar items */
 .navbar-nav .nav-link {
-    color:  hsl(215.34deg 100% 14.31%) !important; /* White text color */
+    color: hsl(215.34deg 100% 14.31%) !important;
+    /* White text color */
     font-size: 1.1rem;
     text-transform: uppercase;
     padding: 15px 20px;
     transition: color 0.3s ease;
-  
+
 }
+
 .navbar-nav .nav-link:hover,
 .navbar-nav .nav-link:focus {
-    color: #ff7f50 !important; /* Hover color for links */
-    text-decoration: none; /* Remove underline */
+    color: #ff7f50 !important;
+    /* Hover color for links */
+    text-decoration: none;
+    /* Remove underline */
 }
 
 /* Active Navbar Item on scroll */
 .navbar.scrolled {
-    background-color: #222; /* Darker background when scrolling */
+    background-color: #222;
+    /* Darker background when scrolling */
 }
 
 /* Navbar collapse styles for mobile view */
@@ -359,164 +391,207 @@ body {
     transform-origin: bottom left;
 }
 
- /* side image animation  */
+/* side image animation  */
 /* Define the keyframes for animations */
 @keyframes fadeInSlide {
     0% {
-      opacity: 0;
-      transform: translateY(-50px);
+        opacity: 0;
+        transform: translateY(-50px);
     }
+
     100% {
-      opacity: 1;
-      transform: translateY(0);
+        opacity: 1;
+        transform: translateY(0);
     }
-  }
-  
-  /* Apply the animation to the section */
-  .side-image {
+}
+
+/* Apply the animation to the section */
+.side-image {
     animation: fadeInSlide 1.5s ease-out forwards;
-  }
-  
-  /* Additional styling for smooth appearance */
-  img.img-fluid {
+}
+
+/* Additional styling for smooth appearance */
+img.img-fluid {
     animation: fadeInSlide 1.5s ease-out 0.5s forwards;
     opacity: 0;
-  }
-  
-  h2, p {
+}
+
+h2,
+p {
     animation: fadeInSlide 1.5s ease-out 0.8s forwards;
     opacity: 0;
-  }
-  
-  /* gallery section */
+}
 
-   .gallery-section {
-      padding: 50px 0;
-      background-color: #f8f9fa;
-    }
-    .gallery-item {
-      overflow: hidden;
-      position: relative;
-      border-radius: 8px;
-      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    }
-    .gallery-item img {
-      transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
-      width: 100%;
-      height: auto;
-    }
-    .gallery-item:hover img {
-      transform: scale(1.1) rotate(2deg);
-      opacity: 0.9;
-    }
-    .gallery-title {
-      text-align: center;
-      margin-bottom: 30px;
-      font-size: 2rem;
-      font-weight: bold;
-      color: #343a40;
-    }
-    .gallery-item .overlay {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: rgba(0, 0, 0, 0.5);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      opacity: 0;
-      transition: opacity 0.5s ease;
-    }
-    .gallery-item:hover .overlay {
-      opacity: 1;
-    }
-    .overlay-text {
-      color: #fff;
-      font-size: 1.5rem;
-      font-weight: bold;
-    }
+/* gallery section */
 
-    /* content section */
-    .testimonial-section {
-        background-color: #D9534F; /* Matches the red color */
-        height: 50vh;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        padding: 20px;
-        color: #fff;
-        text-align: center;
-      }
-      
-      blockquote {
-        font-size: 1.5rem;
-        font-weight: 300;
-        margin: 0 0 10px;
-      }
+.gallery-section {
+    padding: 50px 0;
+    background-color: #f8f9fa;
+}
 
-       /* footer section  */
-      .footer {
-        padding: 40px 20px;
-        background-color: #001e49;
-        color: white;
-      }
-      .footer h5 {
-        font-weight: bold;
-        margin-bottom: 20px;
-      }
-      .footer ul {
-        list-style: none;
-        padding: 0;
-      }
-      .footer ul li a {
-        color: rgb(255, 252, 252);
-        text-decoration: none;
-        display: block;
-        margin: 5px 0;
-      }
-      .footer ul li a:hover {
-        text-decoration: underline;
-      }
-      .footer-bottom {
-     /* Purple background */
-        color: white;
-        text-align: center;
-        padding: 10px 0;
-      }
-      .social-icons {
-        position: absolute;
-        bottom: 30px;
-        right: 30px;
-      }
-      .social-icons img {
-        width: 50px;
-        height: 50px;
-      }
+.gallery-item {
+    overflow: hidden;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
 
-      /* whitsapp button */
+.gallery-item img {
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    width: 100%;
+    height: auto;
+}
 
-  
-      
-      .social-icons {
-        position: sticky;
-        bottom: 40px;
-      }
-  
-      
-      .social-icons a img {
-        width: 10vw; 
-        max-width: 50px; 
-      }
-    
-      /* About Section */
-      .custom-card {
-        background-color: #e6392f;
-        color: white;
-        padding: 80px 50px;
-        border-radius: 5px;
-    }
-    .card-margin-top{
-        margin-top: 120px !important;
-    }
+.gallery-item:hover img {
+    transform: scale(1.1) rotate(2deg);
+    opacity: 0.9;
+}
+
+.gallery-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #343a40;
+}
+
+.gallery-item .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.gallery-item:hover .overlay {
+    opacity: 1;
+}
+
+.overlay-text {
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* content section */
+.testimonial-section {
+    background-color: #D9534F;
+    /* Matches the red color */
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+}
+
+blockquote {
+    font-size: 1.5rem;
+    font-weight: 300;
+    margin: 0 0 10px;
+}
+
+/* footer section  */
+.footer {
+    padding: 40px 20px;
+    background-color: #001e49;
+    color: white;
+}
+
+.footer h5 {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer ul li a {
+    color: rgb(255, 252, 252);
+    text-decoration: none;
+    display: block;
+    margin: 5px 0;
+}
+
+.footer ul li a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    /* Purple background */
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.social-icons {
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+}
+
+.social-icons img {
+    width: 50px;
+    height: 50px;
+}
+
+/* whitsapp button */
+
+
+
+.social-icons {
+    position: sticky;
+    bottom: 40px;
+}
+
+
+.social-icons a img {
+    width: 10vw;
+    max-width: 50px;
+}
+
+/* About Section */
+.custom-card {
+    background-color: #e6392f;
+    color: rgb(255, 254, 254);
+    padding: 80px 50px;
+    border-radius: 5px;
+}
+
+.card-margin-top {
+    margin-top: 120px !important;
+}
+
+/* about section */
+
+.container {
+    padding: 50px;
+   
+}
+.title {
+    font-size: 28px;
+    font-weight: bold;
+}
+.accordion-button {
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.accordion-item {
+    background-color: transparent;
+    border: none;
+}
+.types{
+   background-color:  #e6392f;
+   color: white;
+}
