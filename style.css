@@ -594,9 +594,12 @@ blockquote {
 }
 .types{
    background-color:  #e6392f;
-   color: white;
+   color: rgb(255, 255, 255);
    margin-bottom: 50px;
 }
-
-/* Card section */
-
+/* form image */
+.form img {
+    margin-bottom: 27px;
+    width: 220vh;
+    height: 46vh;
+}
