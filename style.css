@@ -607,8 +607,8 @@ blockquote {
 /* Comerical section */
 
 .cm-section {
-    background: url('images/cm.jpg');
-    height: 100vh;
+    background: url('images/p.jpg' );
+    height: 70vh;
     display: flex;
     align-items: center;
     justify-content: center;
