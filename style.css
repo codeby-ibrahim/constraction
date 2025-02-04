@@ -603,3 +603,64 @@ blockquote {
     width: 220vh;
     height: 46vh;
 }
+
+/* Comerical section */
+
+.cm-section {
+    background: url('images/cm.jpg');
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: left;
+    position: relative;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+.cm-content {
+    position: relative;
+    z-index: 1;
+    max-width: 600px;
+}
+.btn-outline-light {
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+.btn-outline-light:hover {
+    background: white;
+    color: black;
+}
+
+/* cm 2nd section  */
+
+.cm-features {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+}
+
+.cm-features .container {
+    max-width: 1100px;
+}
+
+.cm-features p {
+    font-size: 1.1rem;
+    line-height: 1.6; 
+    color: #333; }
+
+.cm-features p strong {
+    color: #222; 
+}
+
+@media (max-width: 768px) {
+    .features .row {
+        text-align: center;
+    }
+}
