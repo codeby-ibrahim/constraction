@@ -673,9 +673,9 @@ blockquote {
         margin-bottom: 50px;
     
 }
-.accordion-button{
+.name{
     color: red;
 }
-.accordion-body{
-    color: #000;
+.explanation{
+    color: #440303;
 }
