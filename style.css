@@ -665,3 +665,17 @@ blockquote {
     }
 }
 
+/* stdio section */
+
+.stdio{
+    background-color: #f8f9fa;
+        color: rgb(204, 1, 1);
+        margin-bottom: 50px;
+    
+}
+.accordion-button{
+    color: red;
+}
+.accordion-body{
+    color: #000;
+}
