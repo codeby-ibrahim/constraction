@@ -85,7 +85,7 @@
     animation: fadeInUp 1.5s ease-out;
 }
 .hero-section { 
-    height: 78vh;
+    height: 60vh;
     display: flex;
     align-items: center;
     justify-content: center;
