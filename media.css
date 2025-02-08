@@ -14,7 +14,7 @@
             position: absolute;
             top: 120px;
             right: 0;
-            width: 100%;
+        
             padding: 10px 0;
             height: 100vh; 
     } 
@@ -96,7 +96,9 @@
     background-color: #ff7f50;
     transform: translateY(-3px);
 }
-
+.hero h1{
+    margin-bottom: 30px;
+}
 /* About Section */
 
 
