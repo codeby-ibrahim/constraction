@@ -84,6 +84,14 @@
     margin-bottom: 30px;
     animation: fadeInUp 1.5s ease-out;
 }
+.hero-section { 
+    height: 78vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
 
 .hero-section .btn {
     font-size: 1.1rem;
